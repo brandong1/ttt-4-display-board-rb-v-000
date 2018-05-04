@@ -2,8 +2,8 @@
 # out the current state.
 
 def display_board(board)
-  board = ["   |   |   ","\n,-----------"",\n ""   |   |   ","\n,""-----------"",\n ""   |   |   "]
-
+  board = [" "," "," "," "," "," "," "," "," "]
+  puts "#{board[0]}",
 end
 
 
@@ -15,4 +15,6 @@ end
 # end
 #
 # This is completely different than what the lesson says the board[] should be:
+# board = [" "," "," "," "," "," "," "," "," "]
 #
+#I'm still not sure how my other board passed as I had to google how to start a new line since \n hasn't been intoduced yet..
